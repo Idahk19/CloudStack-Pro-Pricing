@@ -1,120 +1,116 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Tailwind CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/29251c5bc0.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <title>Pricing Section</title>
-</head>
+    <title>Pricing Section</title>
+  </head>
 
-<body class="bg-gray-100">
+  <body class="bg-gray-100">
+    <main class="container mx-auto py-12 px-4">
+      <!-- Heading -->
+      <div class="text-center mb-10">
+        <h1 class="text-4xl font-bold">Simple Pricing</h1>
 
-  <main class="container mx-auto py-12 px-4">
-
-    <!-- Heading -->
-    <div class="text-center mb-10">
-      <h1 class="text-4xl font-bold">
-        Simple Pricing
-      </h1>
-
-      <p class="text-gray-600 mt-4">
-        Choose the best plan for your business
-      </p>
-    </div>
-
-    <!-- Pricing Cards -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-
-      <!-- Card 1 -->
-      <div class="bg-white p-6 rounded-2xl border border-gray-200 hover:-translate-y-2 transition-transform">
-
-        <h2 class="text-sm uppercase tracking-widest font-medium text-gray-500">
-          Starter
-        </h2>
-
-        <h3 class="text-4xl font-bold mt-4">
-          $29
-          <span class="text-lg text-gray-500">/mo</span>
-        </h3>
-
-        <ul class="mt-6 space-y-4">
-          <li>5 Projects</li>
-          <li>Basic Support</li>
-
-          <!-- Hidden on mobile -->
-          <li class="hidden md:block">
-            Community Access
-          </li>
-        </ul>
-
-        <button class="w-full mt-8 bg-gray-200 py-3 rounded-xl hover:bg-gray-300">
-          Get Started
-        </button>
-
+        <p class="text-gray-600 mt-4">Choose the best plan for your business</p>
       </div>
 
-      <!-- Card 2 -->
-      <div class="bg-indigo-600 text-white p-6 rounded-2xl ring-4 ring-indigo-300 hover:-translate-y-2 transition-transform">
+      <!-- Pricing Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <div
+          class="bg-white p-6 rounded-2xl border border-gray-200 hover:-translate-y-2 transition-transform"
+        >
+          <h2
+            class="text-sm uppercase tracking-widest font-medium text-gray-500"
+          >
+            Starter
+          </h2>
 
-        <h2 class="text-sm uppercase tracking-widest font-medium">
-          Pro
-        </h2>
+          <h3 class="text-4xl font-bold mt-4">
+            $29
+            <span class="text-lg text-gray-500">/mo</span>
+          </h3>
 
-        <h3 class="text-4xl font-bold mt-4">
-          $79
-          <span class="text-lg">/mo</span>
-        </h3>
+          <ul class="mt-6 space-y-4">
+            <li><i class="fa-solid fa-check"></i>5 Projects</li>
+            <li><i class="fa-solid fa-check"></i>Basic Support</li>
 
-        <ul class="mt-6 space-y-4">
-          <li>Unlimited Projects</li>
-          <li>Priority Support</li>
+            <!-- Hidden on mobile -->
+            <li class="hidden md:block"><i class="fa-solid fa-check"></i>Community Access</li>
+          </ul>
 
-          <!-- Hidden on mobile -->
-          <li class="hidden md:block">
-            Analytics Dashboard
-          </li>
-        </ul>
+          <button
+            class="w-full mt-8 bg-gray-200 py-3 rounded-xl hover:bg-gray-300"
+          >
+            Get Started
+          </button>
+        </div>
 
-        <button class="w-full mt-8 bg-white text-indigo-600 py-3 rounded-xl hover:bg-gray-200">
-          Start Now
-        </button>
+        <!-- Card 2 -->
+        <div
+          class="bg-indigo-600 text-white p-6 rounded-2xl ring-4 ring-indigo-300 hover:-translate-y-2 transition-transform"
+        >
+          <h2 class="text-sm uppercase tracking-widest font-medium">Pro</h2>
 
+          <h3 class="text-4xl font-bold mt-4">
+            $79
+            <span class="text-lg">/mo</span>
+          </h3>
+
+          <ul class="mt-6 space-y-4">
+            <li><i class="fa-solid fa-check"></i>Unlimited Projects</li>
+            <li><i class="fa-solid fa-check"></i>Priority Support</li>
+
+            <!-- Hidden on mobile -->
+            <li class="hidden md:block"><i class="fa-solid fa-check"></i>Analytics Dashboard</li>
+          </ul>
+
+          <button
+            class="w-full mt-8 bg-white text-indigo-600 py-3 rounded-xl hover:bg-gray-200"
+          >
+            Start Now
+          </button>
+        </div>
+
+        <!-- Card 3 -->
+        <div
+          class="bg-white p-6 rounded-2xl border border-gray-200 hover:-translate-y-2 transition-transform"
+        >
+          <h2
+            class="text-sm uppercase tracking-widest font-medium text-gray-500"
+          >
+            Enterprise
+          </h2>
+
+          <h3 class="text-4xl font-bold mt-4">
+            $149
+            <span class="text-lg text-gray-500">/mo</span>
+          </h3>
+
+          <ul class="mt-6 space-y-4">
+            <li><i class="fa-solid fa-check"></i>Unlimited Users</li>
+            <li><i class="fa-solid fa-check"></i>24/7 Support</li>
+
+            <!-- Hidden on mobile -->
+            <li class="hidden md:block"><i class="fa-solid fa-check"></i>Dedicated Manager</li>
+          </ul>
+
+          <button
+            class="w-full mt-8 bg-black text-white py-3 rounded-xl hover:bg-gray-800"
+          >
+            Contact Us
+          </button>
+        </div>
       </div>
-
-      <!-- Card 3 -->
-      <div class="bg-white p-6 rounded-2xl border border-gray-200 hover:-translate-y-2 transition-transform">
-
-        <h2 class="text-sm uppercase tracking-widest font-medium text-gray-500">
-          Enterprise
-        </h2>
-
-        <h3 class="text-4xl font-bold mt-4">
-          $149
-          <span class="text-lg text-gray-500">/mo</span>
-        </h3>
-                                                    
-        <ul class="mt-6 space-y-4">
-          <li>Unlimited Users</li>
-          <li>24/7 Support</li>
-
-          <!-- Hidden on mobile -->
-          <li class="hidden md:block">
-            Dedicated Manager
-          </li>
-        </ul>
-
-        <button class="w-full mt-8 bg-black text-white py-3 rounded-xl hover:bg-gray-800">
-          Contact Us
-        </button>
-
-      </div>
-
-    </div>
-
-  </main>
-
-</body>
+    </main>
+  </body>
 </html>
