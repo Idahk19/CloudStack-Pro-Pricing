@@ -1,6 +1,6 @@
 # CLOUDSTACK PRO PRICING SECTION
 
-This project is a responsive SaaS pricing section designed for a fictional product called CloudStack Pro. It is inspired by modern SaaS platforms like CineFlow and focuses on clean UI, responsiveness, and conversion-friendly design.
+This project is a responsive SaaS pricing section designed for a product called CloudStack Pro. 
 
 ---
 
